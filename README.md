@@ -1,15 +1,3 @@
----
-title: "Framework for a Digital Age Verification System using Cryptographic Signatures and the Ethereum Blockchain"
-author: "Tristan Mocio, Zack Dankenbring, Bryce Bullard"
-date: \today
-fontsize: 12pt
-geometry: margin=1in
-documentclass: report
-header-includes:
-  - \usepackage{needspace}
----
-**It is recommended that readers complete the `Logic` portion of this paper before running the code. If you would like to skip to the code, go to the section: `Instructions For Running Code`.**
-
 ## Background
 
 Digital age verification has become a major topic in recent years. Many legislators are attempting to make it a requirement for accessing apps, sites and even operating systems. This leaves developers scrambling to find ways to become compliant. Often at the detriment of privacy and security. Because of this, I developed a system that could verify a users age effectively, securely and efficiently without sacrificing user privacy.
