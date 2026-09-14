@@ -1,3 +1,19 @@
+# ECDSA Age Verification
+
+A privacy-preserving age verification system built using cryptographic signatures (ECDSA) and a Solidity smart contract on Ethereum. Users verify their age once with a trusted issuer, then prove their status to any site without resubmitting personal information or an ID.
+
+**Tech stack:** Python, Solidity, web3.py, Hyperledger Besu
+
+## Table of Contents
+- [Background](#background)
+- [Existing Age Verification Systems](#existing-age-verification-systems)
+- [Overview](#overview)
+- [File Structure](#file-structure)
+- [Logic](#logic)
+- [Security Features and Limitations](#security-features-and-limitations)
+- [Instructions For Running Code](#instructions-for-running-code)
+- [Future Enhancements](#future-enhancements)
+
 ## Background
 
 Digital age verification has become a major topic in recent years. Many legislators are attempting to make it a requirement for accessing apps, sites and even operating systems. This leaves developers scrambling to find ways to become compliant. Often at the detriment of privacy and security. Because of this, I developed a system that could verify a users age effectively, securely and efficiently without sacrificing user privacy.
